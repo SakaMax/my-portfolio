@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["eslint-plugin-html"],
+  "globals": {
+    "Vue": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}
