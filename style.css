@@ -1,5 +1,5 @@
 .basic-profile {
-  display: flex;
+  display: flex inline;
   flex-direction: row;
   align-items: center;
 }
