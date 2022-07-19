@@ -8,12 +8,12 @@
 }
 
 .jidori-container {
-  width: 40%;
-  height: 40%;
+  width: 16em;
+  height: 16em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 
 .jidori {
@@ -22,12 +22,17 @@
   border-radius: 50%;
 }
 
+.jidori-caption {
+  font-size: 1.2em;
+  padding: 1em;
+}
+
 .basic-profile {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.5em;
   height: 18em;
   width: 16em;
 }
