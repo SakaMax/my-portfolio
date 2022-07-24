@@ -5,18 +5,18 @@ const hobbies = document.getElementById("hobbies")
 const hobbiesList = [
   {
     title: "原付",
-    main: "通学用の原付でのんびり走り回るのが最近の趣味です。",
+    main: "通学用の原付(Today)でのんびり走り回るのが最近の趣味です。\n走行距離が2万キロを超えましたが元気に走ってくれます。",
     img: "./meter.png",
   },
   {
     title: "factorio",
-    main: "factorioは未知の惑星に墜落したプレイヤーが惑星の資源を採掘し、工場を建設し、ロケットを建造して脱出を目指すゲームです。",
+    main: "factorioは未知の惑星に墜落したプレイヤーが惑星の資源を採掘し、工場を建設し、\nロケットを建造して脱出を目指すゲームです。",
     img: "./factorio_400.gif",
   },
   { title: "昼寝", main: "寝る子は育つ。", img: "./hirune_soto_boy.png" },
   {
     title: "python",
-    main: "研究でも趣味でも何か作るときはとりあえずpython。Paizaラーニングをpythonで遊んでいたらAランクまで行きました。",
+    main: "研究でも趣味でも何か作るときはとりあえずpython。\nPaizaラーニングをpythonで遊んでいたらAランクまで行きました。",
     img: "./paiza.png",
   },
 ]
@@ -32,8 +32,8 @@ const createHobbyDiv = function (index) {
   const main = document.createElement("div")
   const img = document.createElement("img")
 
-  title.textContent = hobbiesList[index].title
-  main.textContent = hobbiesList[index].main
+  title.innerText = hobbiesList[index].title
+  main.innerText = hobbiesList[index].main
   img.src = hobbiesList[index].img
 
   newHobbyContainer.classList.add("hobby-container")
