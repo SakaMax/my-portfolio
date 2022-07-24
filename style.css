@@ -128,7 +128,8 @@ header {
 }
 
 .hobby-container {
-  width: 600px;
+  width: 80%;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,6 +138,11 @@ header {
 .hobby-main {
   word-wrap: break-word;
   padding: 1em;
+}
+
+.hobby-img {
+  max-width: 75%;
+  max-height: 75%;
 }
 
 .hobby-arrow {
