@@ -1,4 +1,9 @@
-.header {
+header {
+  width: 100%;
+  background-color: black;
+}
+
+.header-container {
   height: 5em;
   width: 80%;
   margin: 0 auto;
