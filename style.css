@@ -37,6 +37,12 @@ header {
   text-decoration: none;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about {
   display: flex;
   flex-direction: row;
@@ -46,6 +52,7 @@ header {
   background-size: cover;
   background-position: center;
   padding: 5em;
+  width: 100%;
 }
 
 .jidori-container {
@@ -110,8 +117,10 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   background-color: #cfe6e6;
   padding: 5em;
+  width: 100%;
 }
 
 .hobby-container {
