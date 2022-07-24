@@ -71,3 +71,14 @@
   flex-direction: row;
   align-items: center;
 }
+
+.hobby-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobby-main {
+  word-wrap: break-word;
+}

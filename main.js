@@ -4,7 +4,11 @@ const hobbies = document.getElementById("hobbies")
 // 趣味の配列
 const hobbiesList = [
   { title: "原付", main: "原付について", img: "./test.png" },
-  { title: "factorio", main: "factorioについて", img: "./test.png" },
+  {
+    title: "factorio",
+    main: "factorioは未知の惑星に墜落したプレイヤーが惑星の資源を採掘し、工場を建設し、ロケットを建造して脱出を目指すゲームです。",
+    img: "./factorio_400.gif",
+  },
   { title: "昼寝", main: "昼寝について", img: "./test.png" },
 ]
 
@@ -15,7 +19,7 @@ const hobbiesList = [
 const createHobbyDiv = function (index) {
   console.log(index)
   const newHobbyContainer = document.createElement("div")
-  const title = document.createElement("div")
+  const title = document.createElement("h3")
   const main = document.createElement("div")
   const img = document.createElement("img")
 
@@ -23,6 +27,7 @@ const createHobbyDiv = function (index) {
   main.textContent = hobbiesList[index].main
   img.src = hobbiesList[index].img
 
+  newHobbyContainer.classList.add("hobby-container")
   title.classList.add("hobby-title")
   main.classList.add("hobby-main")
   img.classList.add("hobby-img")
