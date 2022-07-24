@@ -10,13 +10,13 @@ const hobbiesList = [
   },
   {
     title: "factorio",
-    main: "factorioは未知の惑星に墜落したプレイヤーが惑星の資源を採掘し、工場を建設し、\nロケットを建造して脱出を目指すゲームです。",
+    main: "factorioは未知の惑星に墜落したプレイヤーが惑星の資源を採掘し、工場を建設し、\nロケットを建造して脱出を目指すゲームです。巨大な工場を構築するのが楽しい😆",
     img: "./factorio_400.gif",
   },
   { title: "昼寝", main: "寝る子は育つ。", img: "./hirune_soto_boy.png" },
   {
     title: "python",
-    main: "研究でも趣味でも何か作るときはとりあえずpython。\nPaizaラーニングをpythonで遊んでいたらAランクまで行きました。",
+    main: "研究でも趣味でも何か作るときはとりあえずpython。(必要な時はbashも使うけどね)\nPaizaラーニングをpythonで遊んでいたらAランクまで行きました。",
     img: "./paiza.png",
   },
 ]
