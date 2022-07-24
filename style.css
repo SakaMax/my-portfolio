@@ -82,3 +82,7 @@
 .hobby-main {
   word-wrap: break-word;
 }
+
+.hobby-arrow {
+  width: 50px;
+}
