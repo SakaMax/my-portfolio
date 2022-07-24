@@ -6,7 +6,7 @@ const hobbiesList = [
   {
     title: "原付",
     main: "通学用の原付でのんびり走り回るのが最近の趣味です。",
-    img: "./test.png",
+    img: "./meter.png",
   },
   {
     title: "factorio",
