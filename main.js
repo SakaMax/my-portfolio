@@ -3,7 +3,11 @@ const hobbies = document.getElementById("hobbies")
 
 // 趣味の配列
 const hobbiesList = [
-  { title: "原付", main: "原付について", img: "./test.png" },
+  {
+    title: "原付",
+    main: "通学用の原付でのんびり走り回るのが最近の趣味です。",
+    img: "./test.png",
+  },
   {
     title: "factorio",
     main: "factorioは未知の惑星に墜落したプレイヤーが惑星の資源を採掘し、工場を建設し、ロケットを建造して脱出を目指すゲームです。",
