@@ -14,6 +14,11 @@ const hobbiesList = [
     img: "./factorio_400.gif",
   },
   { title: "昼寝", main: "寝る子は育つ。", img: "./hirune_soto_boy.png" },
+  {
+    title: "python",
+    main: "研究でも趣味でも何か作るときはとりあえずpython。Paizaラーニングをpythonで遊んでいたらAランクまで行きました。",
+    img: "./paiza.png",
+  },
 ]
 
 /**
