@@ -9,7 +9,7 @@ const hobbiesList = [
     main: "factorioは未知の惑星に墜落したプレイヤーが惑星の資源を採掘し、工場を建設し、ロケットを建造して脱出を目指すゲームです。",
     img: "./factorio_400.gif",
   },
-  { title: "昼寝", main: "昼寝について", img: "./test.png" },
+  { title: "昼寝", main: "寝る子は育つ。", img: "./hirune_soto_boy.png" },
 ]
 
 /**
